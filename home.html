@@ -1,0 +1,39 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+</head>
+<body>
+    <body id="home">
+        <nav class="navbar navbar-dark bg-primary fixed-top">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Smart Login</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+               
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item">
+                     <button class="btn btn-light text-bg-danger w-100"><a class="nav-link active" aria-current="page" href="index.html">log out</a></button> 
+                    </li>
+                   
+                </div>
+              </div>
+            </div>
+          </nav>
+        <div class="container my-5 text-center h-100 d-flex align-items-center ">
+            <div class="group m-auto w-75 p-5 shadow text-primary bg-light">
+                <h1 id="username"></h1>
+            </div>
+        </div>
+
+        <script src="js/bootstrap.bundle.min.js"></script>
+        <script src="js/welcome.js"></script>
+        <script src="js/main.js"></script>
+</body>
+</html>
